@@ -1,0 +1,52 @@
+nav {
+  padding: 10px 20px;
+  box-shadow: 0px 10px 10px #e2e2e2;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+nav .nav_item{
+  display: inline-block;
+  padding: 10px;
+  color: #727272;
+  text-decoration: none;
+}
+nav .nav_active{
+  display: inline-block;
+  padding: 10px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.post_flex {
+  display: flex;
+}
+
+select {
+  width: 100px;
+  padding: 5px;
+  margin: 15px;
+}
+
+.character_list {
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.character_list li {
+  padding: 10px;
+}
+.character_list li img {
+  width: 100%;
+}
