@@ -11,7 +11,7 @@ export const Users = () => {
     );
     const data = await response.json();
     setUsers(data);
-    navigate(`/posts/${data[0].id}`);
+    navigate(`/posts/${data[0].id}`, { replace: true });
   };
 
   useEffect(() => {
